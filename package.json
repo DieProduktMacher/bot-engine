@@ -1,8 +1,8 @@
 {
   "name": "bot-worker-engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple bot engine",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "standard && nyc mocha"
   },
