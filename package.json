@@ -1,6 +1,6 @@
 {
   "name": "bot-worker-engine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple bot engine",
   "main": "lib/index.js",
   "scripts": {
@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/DieProduktMacher/bot-worker-engine#readme",
   "dependencies": {
-    "level-logger": "^2.0.0"
+    "level-logger": "^2.0.0",
+    "redux": "^3.7.2",
+    "sinon-chai": "^2.12.0"
   },
   "devDependencies": {
     "chai": "^4.1.1",
@@ -31,7 +33,6 @@
     "mockery": "^2.1.0",
     "nyc": "^11.1.0",
     "sinon": "^3.1.0",
-    "sinon-chai": "^2.12.0",
     "standard": "^10.0.3"
   },
   "standard": {
