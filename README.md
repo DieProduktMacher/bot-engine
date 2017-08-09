@@ -1,3 +1,3 @@
-# Bot Engin
+# Bot Worker Engine
 
-A simple bot engine
+A simple bot engine dispatching workers
